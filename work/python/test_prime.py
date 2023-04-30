@@ -12,3 +12,4 @@ def test_is_prime():
     assert not is_prime(8)
     assert not is_prime(9)
     assert not is_prime(10)
+    assert is_prime("hoge")
